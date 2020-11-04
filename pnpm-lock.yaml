@@ -2,7 +2,7 @@ devDependencies:
   '@sveltejs/adapter-netlify': 0.0.11
   '@sveltejs/adapter-node': 0.0.14
   '@sveltejs/kit': 0.0.25
-  '@sveltejs/snowpack-config': 0.0.4_svelte@3.29.4
+  '@sveltejs/snowpack-config': 0.0.5_svelte@3.29.4
   cookie: 0.4.1
   svelte: 3.29.4
   svelte-preprocess: 4.5.2_svelte@3.29.4
@@ -190,14 +190,14 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-PEZ9Put9ruDX+mEoqr3Jg+jhcxupv6cV3c/j/aiqEgjMGJKy9d5eOFXATF2emQv3rw6eCtHiuNZIYTxt+JqMTQ==
-  /@sveltejs/snowpack-config/0.0.4_svelte@3.29.4:
+  /@sveltejs/snowpack-config/0.0.5_svelte@3.29.4:
     dependencies:
       '@snowpack/plugin-svelte': 3.2.0_svelte@3.29.4
     dev: true
     peerDependencies:
       svelte: '*'
     resolution:
-      integrity: sha512-cnJ+M5EfXmCWZnnyuy/Hg4YG4ZoX1HtCRHZiqgADiD6gJwtnUCoDz2QBF4x+ftnaLKe7iWMkPcfIdlMFUVEqfA==
+      integrity: sha512-lZQCbeKIwaGMVvWzw4HPo76NIE+MkLH73OapwZlALDurPWR1/fDOSMCFgpNecvr5Gh/y6nzFN6bsdgbpJpw3ng==
   /@types/estree/0.0.39:
     dev: true
     resolution:
@@ -350,7 +350,7 @@ packages:
   /browserslist/4.14.6:
     dependencies:
       caniuse-lite: 1.0.30001154
-      electron-to-chromium: 1.3.586
+      electron-to-chromium: 1.3.587
       escalade: 3.1.1
       node-releases: 1.1.65
     dev: true
@@ -672,10 +672,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-6SsIx+nUUbuK0EthKjv0zrdnajCCXVYGmbYYiYjFVpzcjwEs/JMDZ8tPRG29J/HhN56t3GJp2cGSWDRjjot8Pg==
-  /electron-to-chromium/1.3.586:
+  /electron-to-chromium/1.3.587:
     dev: true
     resolution:
-      integrity: sha512-or8FCbQCRlPZHkOoqBULOI9hzTiStVIQqDLgAPt8pzY+swTrW+89vsqd24Zn+Iv4guAJLxRBD6OR5AmbpabGDA==
+      integrity: sha512-8XFNxzNj0R8HpTQslWAw6UWpGSuOKSP3srhyFHVbGUGb8vTHckZGCyWi+iQlaXJx5DNeTQTQLd6xN11WSckkmA==
   /end-of-stream/1.4.4:
     dependencies:
       once: 1.4.0
@@ -2185,7 +2185,7 @@ specifiers:
   '@sveltejs/adapter-netlify': ^0.0.11
   '@sveltejs/adapter-node': 0.0.14
   '@sveltejs/kit': 0.0.25
-  '@sveltejs/snowpack-config': 0.0.4
+  '@sveltejs/snowpack-config': 0.0.5
   cookie: ^0.4.1
   svelte: ^3.29.4
   svelte-preprocess: ^4.5.2
