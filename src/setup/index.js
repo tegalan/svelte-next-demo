@@ -1,5 +1,5 @@
 export async function prepare(headers) {
-    console.log('prepare ', headers)
+    // console.log('prepare ', headers)
     return {
         context: {},
         headers: {
@@ -9,7 +9,7 @@ export async function prepare(headers) {
 }
 
 export function getSession(context) {
-    console.log('getsession', context)
+    // console.log('getsession', context)
     return {
         user: "Sucipto"
     }
